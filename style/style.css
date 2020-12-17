@@ -1,0 +1,1218 @@
+.light {
+  background-color: #fff4fd; }
+  .light .header_title {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038; }
+    .light .header_title h5 {
+      color: #FFFFFF; }
+  .light .content header nav .logo_dark {
+    display: none; }
+  .light .content header nav .buttons .create {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038; }
+    .light .content header nav .buttons .create:hover {
+      outline: 1px dotted #110038; }
+  .light .content header nav .buttons .theme #choose_topic #select_theme {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    color: #110038; }
+    .light .content header nav .buttons .theme #choose_topic #select_theme:hover {
+      outline: 1px dotted #110038; }
+  .light .content header nav .buttons .theme #choose_topic #select_theme_arrow {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content header nav .buttons .theme #choose_topic #select_theme_arrow:hover {
+      outline: 1px dotted #110038; }
+  .light .content header nav .buttons .theme #theme_button {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content header nav .buttons .theme #theme_button button {
+      background: #F0F0F0;
+      border: 1px solid #808080;
+      box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+      color: #110038; }
+      .light .content header nav .buttons .theme #theme_button button:hover {
+        outline: 1px dotted #110038; }
+      .light .content header nav .buttons .theme #theme_button button:active {
+        background: #FFF4FD;
+        border: 1px solid #CCA6C9;
+        box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF; }
+  .light .content header nav .buttons .myGifos .guifos_go {
+    color: #110038; }
+    .light .content header nav .buttons .myGifos .guifos_go span {
+      background-image: linear-gradient(#110038, #110038); }
+  .light .content header nav .buttons .myGifos:hover {
+    outline: 1px dotted #110038; }
+  .light .content header nav .buttons .myGifos:active {
+    color: #B4B4B4; }
+    .light .content header nav .buttons .myGifos:active span {
+      background-image: linear-gradient(#B4B4B4, #B4B4B4); }
+  .light .content header .search {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content header .search .gradient {
+      background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%); }
+      .light .content header .search .gradient h4 {
+        color: #FFFFFF; }
+    .light .content header .search .search_content .search_inputs #search_input {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+    .light .content header .search .search_content #search {
+      background: #E6E6E6;
+      border: 1px solid #808080;
+      box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+      color: #B4B4B4; }
+      .light .content header .search .search_content #search .lupaDk {
+        display: none; }
+      .light .content header .search .search_content #search:hover {
+        outline: 1px dotted #110038; }
+      .light .content header .search .search_content #search:active {
+        background: #E6BBE2;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content header .search .search_results {
+      background: #E6E6E6;
+      box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+      .light .content header .search .search_results ul li {
+        font-family: "Chakra Petch", sans-serif;
+        background: #F0F0F0;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+        .light .content header .search .search_results ul li:hover {
+          outline: 1px dotted #110038;
+          background: #DBDBDB; }
+  .light .content #suggestions .suggest_title {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+    .light .content #suggestions .suggest_title h4 {
+      color: #110038; }
+  .light .content #suggestions .suggestions_content .window {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content #suggestions .suggestions_content .window .bar {
+      background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+      height: 24px; }
+      .light .content #suggestions .suggestions_content .window .bar h4 {
+        color: #FFFFFF; }
+    .light .content #suggestions .suggestions_content .window .gif {
+      position: relative; }
+      .light .content #suggestions .suggestions_content .window .gif .more {
+        color: #FFFFFF;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -1px -1px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF; }
+        .light .content #suggestions .suggestions_content .window .gif .more:hover {
+          outline: 1px dotted #110038; }
+  .light .content #gifRecorder #recorderIntro {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorderIntro .gradient {
+      background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%); }
+      .light .content #gifRecorder #recorderIntro .gradient h4 {
+        color: #FFFFFF; }
+    .light .content #gifRecorder #recorderIntro .recorderTitle h4 {
+      color: #110038; }
+    .light .content #gifRecorder #recorderIntro .introBody p {
+      color: #110038; }
+    .light .content #gifRecorder #recorderIntro .introBtns .btn {
+      color: #110038; }
+      .light .content #gifRecorder #recorderIntro .introBtns .btn:hover {
+        outline: 1px dotted #110038; }
+    .light .content #gifRecorder #recorderIntro .introBtns #cancelBtn {
+      background: #FFF4FD;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+      .light .content #gifRecorder #recorderIntro .introBtns #cancelBtn:hover {
+        background: #F0E5EE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorderIntro .introBtns #startBtn {
+      background: #F7C9F3;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+      .light .content #gifRecorder #recorderIntro .introBtns #startBtn:hover {
+        background: #E6BBE2;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+  .light .content #gifRecorder #recorder {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorder .gradient {
+      background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%); }
+      .light .content #gifRecorder #recorder .gradient h4 {
+        color: #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderDisplay {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+    .light .content #gifRecorder #recorder #recorderPreCapture #captureGrp .btn {
+      background: #F7C9F3;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderLive .counterLive {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .light .content #gifRecorder #recorder #recorderLive .counterLive span {
+        color: #110038; }
+    .light .content #gifRecorder #recorder #recorderLive #stopGrp .stopBtn {
+      background: #FF6161;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderLive #stopGrp #stopBtn {
+      color: #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .light .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg span {
+        color: #110038; }
+    .light .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar {
+      background: #B4B4B4;
+      box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC; }
+      .light .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar .progressBlock {
+        background-color: #999999; }
+    .light .content #gifRecorder #recorder #recorderPreview .counterPvw .playBtn {
+      background: #F7C9F3;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderPreview .endBtns .btn {
+      border: 1px solid #110038;
+      color: #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorder #recorderPreview .endBtns #repeatBtn {
+      background: #FFF4FD; }
+    .light .content #gifRecorder #recorder #recorderPreview .endBtns #uploadBtn {
+      background: #F7C9F3; }
+    .light .content #gifRecorder #recorder #uploadDisplay {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .light .content #gifRecorder #recorder #uploadDisplay .progressBar {
+        background: #B4B4B4;
+        box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC; }
+        .light .content #gifRecorder #recorder #uploadDisplay .progressBar .progressBlock {
+          background-color: #999999; }
+    .light .content #gifRecorder #recorder .uploadingBtns button {
+      background: #FFF4FD;
+      border: 1px solid #110038;
+      color: #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+  .light .content #gifRecorder #recorderEnd {
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorderEnd .gradient {
+      background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%); }
+      .light .content #gifRecorder #recorderEnd .gradient h4 {
+        color: #FFFFFF; }
+    .light .content #gifRecorder #recorderEnd .windowCont .cont #recordedDisplay {
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+    .light .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn h4 {
+      color: #110038; }
+    .light .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn button {
+      color: #110038;
+      background: #FFF4FD;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+    .light .content #gifRecorder #recorderEnd .windowCont #readyBtn {
+      color: #110038;
+      background: #F7C9F3;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+  .light .content .my_Gifos .guifos_go {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+    .light .content .my_Gifos .guifos_go h4 {
+      color: #110038; }
+  .light .content #trending .trend_title {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+    .light .content #trending .trend_title h4 {
+      color: #110038;
+      letter-spacing: 0; }
+  .light .content #trending #trend_content .gifCont:hover {
+    border: 1px solid #110038;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    outline: 1px dotted #110038; }
+  .light .content #trending #trend_content .gifCont .hoverBar {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%); }
+    .light .content #trending #trend_content .gifCont .hoverBar span {
+      color: #FFFFFF; }
+  .light .content #search_results .results_title {
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+    .light .content #search_results .results_title h4 {
+      color: #110038;
+      letter-spacing: 0; }
+
+.dark {
+  background-color: #110038; }
+  .dark .header_title {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #FFFFFF; }
+    .dark .header_title h5 {
+      color: #FFFFFF; }
+  .dark .content {
+    background-color: #110038; }
+    .dark .content header nav .logo_day {
+      display: none; }
+    .dark .content header nav .buttons .create {
+      background: #EE3EFE;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+      color: #FFFFFF; }
+      .dark .content header nav .buttons .create:hover {
+        outline: 1px dotted #110038; }
+    .dark .content header nav .buttons .theme #choose_topic #select_theme {
+      background: #EE3EFE;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+      color: #FFFFFF; }
+      .dark .content header nav .buttons .theme #choose_topic #select_theme:hover {
+        outline: 1px dotted #110038; }
+    .dark .content header nav .buttons .theme #choose_topic #select_theme_arrow {
+      background: #EE3EFE;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+      .dark .content header nav .buttons .theme #choose_topic #select_theme_arrow img {
+        filter: invert(100%); }
+      .dark .content header nav .buttons .theme #choose_topic #select_theme_arrow:hover {
+        outline: 1px dotted #110038; }
+    .dark .content header nav .buttons .theme #theme_button {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content header nav .buttons .theme #theme_button button {
+        background: #CCCCCC;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF;
+        color: #110038; }
+        .dark .content header nav .buttons .theme #theme_button button:hover {
+          outline: 1px dotted #110038; }
+        .dark .content header nav .buttons .theme #theme_button button:active {
+          background: #2E32FB;
+          border: 1px solid rgba(51, 53, 143, 0.2);
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF; }
+    .dark .content header nav .buttons .myGifos .guifos_go {
+      color: #FFFFFF; }
+    .dark .content header nav .buttons .myGifos:hover {
+      outline: 1px dotted #FFFFFF; }
+      .dark .content header nav .buttons .myGifos:hover span {
+        background-image: linear-gradient(#FFFFFF, #FFFFFF); }
+    .dark .content header .search {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content header .search .gradient {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+        .dark .content header .search .gradient h4 {
+          color: #FFFFFF; }
+      .dark .content header .search .search_content .search_inputs #search_input {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #000000; }
+      .dark .content header .search .search_content #search {
+        background: #EE3EFE;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF;
+        color: #FFFFFF; }
+        .dark .content header .search .search_content #search .search_glass {
+          filter: invert(100%); }
+        .dark .content header .search .search_content #search:hover {
+          outline: 1px dotted #110038; }
+      .dark .content header .search .search_results {
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+        .dark .content header .search .search_results ul li {
+          font-family: "Chakra Petch", sans-serif;
+          background: #CCCCCC;
+          border: 1px solid #808080;
+          box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF; }
+          .dark .content header .search .search_results ul li:hover {
+            outline: 1px dotted #110038;
+            background: #DBDBDB; }
+    .dark .content #suggestions .suggest_title {
+      background: #FFFAFE;
+      border: 1px solid #E6BBE2;
+      box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+      .dark .content #suggestions .suggest_title h4 {
+        color: #110038; }
+    .dark .content #suggestions .suggestions_content .window {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content #suggestions .suggestions_content .window .bar {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+        .dark .content #suggestions .suggestions_content .window .bar h4 {
+          color: #FFFFFF; }
+      .dark .content #suggestions .suggestions_content .window .gif {
+        position: relative; }
+        .dark .content #suggestions .suggestions_content .window .gif .more {
+          color: #FFFFFF;
+          background: #4180F6;
+          border: 1px solid #4C2F99;
+          box-shadow: inset -1px -1px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF; }
+          .dark .content #suggestions .suggestions_content .window .gif .more:hover {
+            outline: 1px dotted #FFFFFF; }
+    .dark .content #gifRecorder #recorderIntro {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorderIntro .gradient {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+        .dark .content #gifRecorder #recorderIntro .gradient h4 {
+          color: #FFFFFF; }
+      .dark .content #gifRecorder #recorderIntro .recorderTitle h4 {
+        color: #110038; }
+      .dark .content #gifRecorder #recorderIntro .introBody p {
+        color: #110038; }
+      .dark .content #gifRecorder #recorderIntro .introBtns .btn {
+        color: #110038; }
+        .dark .content #gifRecorder #recorderIntro .introBtns .btn:hover {
+          outline: 1px dotted #110038; }
+      .dark .content #gifRecorder #recorderIntro .introBtns #cancelBtn {
+        background: #110038;
+        color: #FFFFFF;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+        .dark .content #gifRecorder #recorderIntro .introBtns #cancelBtn:hover {
+          background: #110038;
+          border: 1px solid #B4B4B4;
+          outline: 1px dotted #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+      .dark .content #gifRecorder #recorderIntro .introBtns #startBtn {
+        background: #EE3EFE;
+        color: #FFFFFF;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+        .dark .content #gifRecorder #recorderIntro .introBtns #startBtn:hover {
+          background: #CE36DB;
+          border: 1px solid #110038;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+    .dark .content #gifRecorder #recorder {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorder .gradient {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+        .dark .content #gifRecorder #recorder .gradient h4 {
+          color: #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderDisplay {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .dark .content #gifRecorder #recorder #recorderPreCapture #captureGrp .btn {
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderPreCapture #captureGrp #captureCam img {
+        filter: invert(100%); }
+      .dark .content #gifRecorder #recorder #recorderPreCapture #captureGrp #captureBtn {
+        color: #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderLive .counterLive {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+        .dark .content #gifRecorder #recorder #recorderLive .counterLive span {
+          color: #110038; }
+      .dark .content #gifRecorder #recorder #recorderLive #stopGrp .stopBtn {
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderLive #stopGrp #stopBtn {
+        color: #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+        .dark .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg span {
+          color: #110038; }
+      .dark .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar {
+        background: #B4B4B4;
+        box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #E6E6E6; }
+        .dark .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar .progressBlock {
+          background-color: #999999; }
+      .dark .content #gifRecorder #recorder #recorderPreview .counterPvw .playBtn {
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderPreview .endBtns .btn {
+        border: 1px solid #B4B4B4;
+        color: #FFFFFF; }
+      .dark .content #gifRecorder #recorder #recorderPreview .endBtns #repeatBtn {
+        background: #110038;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+      .dark .content #gifRecorder #recorder #recorderPreview .endBtns #uploadBtn {
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorder #uploadDisplay {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+        .dark .content #gifRecorder #recorder #uploadDisplay .progressBar {
+          background: #B4B4B4;
+          box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC; }
+          .dark .content #gifRecorder #recorder #uploadDisplay .progressBar .progressBlock {
+            background-color: #999999; }
+      .dark .content #gifRecorder #recorder .uploadingBtns button {
+        color: #FFFFFF;
+        background: #110038;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+    .dark .content #gifRecorder #recorderEnd {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF; }
+      .dark .content #gifRecorder #recorderEnd .gradient {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+        .dark .content #gifRecorder #recorderEnd .gradient h4 {
+          color: #FFFFFF; }
+      .dark .content #gifRecorder #recorderEnd .windowCont .cont #recordedDisplay {
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+      .dark .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn h4 {
+        color: #110038; }
+      .dark .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn button {
+        color: #FFFFFF;
+        background: #110038;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD; }
+      .dark .content #gifRecorder #recorderEnd .windowCont #readyBtn {
+        color: #FFFFFF;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF; }
+    .dark .content .my_Gifos .guifos_go {
+      background: #FFFAFE;
+      border: 1px solid #E6BBE2;
+      box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+      .dark .content .my_Gifos .guifos_go h4 {
+        color: #110038; }
+    .dark .content #trending .trend_title {
+      background: #FFFAFE;
+      border: 1px solid #E6BBE2;
+      box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+      .dark .content #trending .trend_title h4 {
+        color: #110038;
+        letter-spacing: 0; }
+    .dark .content #trending #trend_content .gifCont:hover {
+      background: #B4B4B4;
+      box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+      outline: 1px dotted #FFFFFF; }
+    .dark .content #trending #trend_content .gifCont .hoverBar {
+      background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); }
+      .dark .content #trending #trend_content .gifCont .hoverBar span {
+        color: #FFFFFF; }
+    .dark .content #search_results .results_title {
+      background: #FFFAFE;
+      border: 1px solid #E6BBE2;
+      box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+      .dark .content #search_results .results_title h4 {
+        color: #110038;
+        letter-spacing: 0; }
+
+body .header_title {
+  margin: 0 auto;
+  height: 23px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038; }
+  body .header_title h5 {
+    padding: 4px 0 0 8px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0; }
+body .content {
+  margin: 0 auto; }
+  body .content header {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; }
+    body .content header nav {
+      margin: 35px 0 16px 0;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      body .content header nav .buttons {
+        justify-content: space-between; }
+        body .content header nav .buttons .create {
+          margin-right: 16px;
+          display: block;
+          width: 144px;
+          height: 36px;
+          font-family: "Chakra Petch", sans-serif;
+          font-size: 16px;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+          body .content header nav .buttons .create:hover {
+            outline-offset: -5px; }
+        body .content header nav .buttons .theme {
+          font-size: 0;
+          width: 170px;
+          margin-right: 16.5px; }
+          body .content header nav .buttons .theme #choose_topic {
+            display: flex;
+            flex-direction: row; }
+            body .content header nav .buttons .theme #choose_topic #select_theme {
+              width: 134px;
+              height: 36px;
+              font-family: "Chakra Petch", sans-serif;
+              font-size: 16px;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 18px; }
+              body .content header nav .buttons .theme #choose_topic #select_theme:hover {
+                outline-offset: -5px; }
+            body .content header nav .buttons .theme #choose_topic #select_theme_arrow {
+              width: 36px;
+              height: 36px;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              body .content header nav .buttons .theme #choose_topic #select_theme_arrow:hover {
+                outline-offset: -5px; }
+          body .content header nav .buttons .theme #theme_button button {
+            width: 150px;
+            height: 36px;
+            margin: 10px 10px 0 10px;
+            border: 1px solid #808080;
+            font-family: "Chakra Petch";
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 22px; }
+            body .content header nav .buttons .theme #theme_button button:hover {
+              outline-offset: -5px; }
+          body .content header nav .buttons .theme .theme_dropdown {
+            width: 170px;
+            height: 102px;
+            position: absolute;
+            z-index: 5;
+            display: none; }
+          body .content header nav .buttons .theme .display {
+            display: block; }
+        body .content header nav .buttons .myGifos {
+          height: 36px;
+          display: flex;
+          align-items: center;
+          width: 100px; }
+          body .content header nav .buttons .myGifos .guifos_go {
+            font-family: "Chakra Petch";
+            padding-left: 5px;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 18px; }
+            body .content header nav .buttons .myGifos .guifos_go span {
+              background-position: bottom center;
+              background-size: 8px 1.5px;
+              background-repeat: no-repeat;
+              padding-top: 0.5px; }
+          body .content header nav .buttons .myGifos:hover {
+            outline-offset: -5px;
+            cursor: pointer; }
+    body .content header .search {
+      width: 1200px;
+      height: 99px; }
+      body .content header .search .gradient {
+        position: relative;
+        box-sizing: border-box;
+        top: 3px;
+        margin-left: 3px;
+        width: 1194px;
+        height: 24px; }
+        body .content header .search .gradient h4 {
+          padding: 4px 0 0 4px;
+          font-family: "Chakra Petch";
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 0; }
+      body .content header .search .search_content {
+        margin-bottom: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px; }
+        body .content header .search .search_content .search_inputs #search_input {
+          margin: 0px 3px 0 12px;
+          height: 48px;
+          width: 1057px;
+          text-indent: 16px;
+          font-family: "Chakra Petch", sans-serif; }
+          body .content header .search .search_content .search_inputs #search_input::placeholder {
+            font-family: "Chakra Petch", sans-serif;
+            font-size: 16px;
+            color: #B4B4B4;
+            letter-spacing: 0; }
+        body .content header .search .search_content #search {
+          margin-right: 18px;
+          width: 102px;
+          height: 36px;
+          font-size: 16px;
+          letter-spacing: 0;
+          line-height: 18px; }
+          body .content header .search .search_content #search:hover {
+            outline-offset: -5px; }
+          body .content header .search .search_content #search img {
+            height: 16px;
+            width: 16px; }
+      body .content header .search .search_results {
+        position: absolute;
+        height: 160px;
+        width: 1200px;
+        z-index: 1;
+        display: none; }
+        body .content header .search .search_results ul {
+          height: 160px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around; }
+          body .content header .search .search_results ul li {
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 35px;
+            position: relative;
+            font-family: "Chakra Petch", sans-serif;
+            margin-left: 12px;
+            height: 36px;
+            width: 1057px;
+            text-indent: 16px;
+            z-index: 2;
+            vertical-align: middle; }
+            body .content header .search .search_results ul li:hover {
+              outline-offset: -5px; }
+      body .content header .search .display {
+        display: block; }
+  body .content #suggestions {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px; }
+    body .content #suggestions .suggest_title {
+      height: 32px;
+      display: flex;
+      align-items: center; }
+      body .content #suggestions .suggest_title h4 {
+        padding-left: 7px;
+        font-family: "Chakra Petch";
+        font-size: 14px;
+        letter-spacing: 0; }
+    body .content #suggestions .suggestions_content {
+      height: 313px;
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between; }
+      body .content #suggestions .suggestions_content .window {
+        width: 288px;
+        height: 313px; }
+        body .content #suggestions .suggestions_content .window .bar {
+          position: relative;
+          margin: 0 4px 0 4px;
+          padding: 0px 3px 0 4px;
+          top: 4px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 24px; }
+          body .content #suggestions .suggestions_content .window .bar h4 {
+            padding-left: 3px;
+            font-family: "Chakra Petch";
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0; }
+        body .content #suggestions .suggestions_content .window .gif {
+          position: relative;
+          top: 4px;
+          margin: 2px 4px 0 4px;
+          height: 280px;
+          width: 280px; }
+          body .content #suggestions .suggestions_content .window .gif img {
+            height: 280px;
+            width: 280px; }
+          body .content #suggestions .suggestions_content .window .gif .more {
+            position: absolute;
+            left: 14px;
+            top: 231px;
+            margin: 0 auto;
+            z-index: 1;
+            height: 34px;
+            width: 81px;
+            font-family: "Chakra Petch";
+            font-size: 14px;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 18px; }
+            body .content #suggestions .suggestions_content .window .gif .more:hover {
+              outline-offset: -5px; }
+  body .content #gifRecorder {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 59px;
+    margin-bottom: 153px;
+    justify-content: center; }
+    body .content #gifRecorder #recorderIntro {
+      width: 684px;
+      height: 386px; }
+      body .content #gifRecorder #recorderIntro .gradient {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        top: 3px;
+        margin-left: 3px;
+        width: 678px;
+        height: 24px;
+        justify-content: space-between;
+        padding: 0 2px 0 2px; }
+        body .content #gifRecorder #recorderIntro .gradient h4 {
+          padding: 4px 0 0 4px;
+          font-family: "Chakra Petch";
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 0; }
+      body .content #gifRecorder #recorderIntro .recorderTitle {
+        display: flex;
+        justify-content: left;
+        padding: 30px 0 7px 25px; }
+        body .content #gifRecorder #recorderIntro .recorderTitle h4 {
+          font-family: "Chakra Petch";
+          padding-left: 16px;
+          font-weight: 700;
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 22px; }
+      body .content #gifRecorder #recorderIntro .introBody {
+        padding: 0 0 18px 73px; }
+        body .content #gifRecorder #recorderIntro .introBody p {
+          font-family: "Chakra Petch";
+          font-size: 14px;
+          color: #110038;
+          letter-spacing: 0;
+          line-height: 20px;
+          padding-bottom: 10px; }
+          body .content #gifRecorder #recorderIntro .introBody p span {
+            font-weight: 700; }
+      body .content #gifRecorder #recorderIntro .introBtns {
+        width: 320px;
+        position: relative;
+        left: 344px;
+        display: flex;
+        justify-content: space-evenly; }
+        body .content #gifRecorder #recorderIntro .introBtns .btn {
+          height: 36px;
+          width: 144px;
+          font-family: "Chakra Petch";
+          font-size: 16px;
+          color: #110038;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px; }
+          body .content #gifRecorder #recorderIntro .introBtns .btn:hover {
+            outline-offset: -5px; }
+    body .content #gifRecorder #recorder {
+      width: 860px;
+      height: 548px; }
+      body .content #gifRecorder #recorder .gradient {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        top: 3px;
+        margin-left: 3px;
+        width: 854px;
+        height: 24px;
+        justify-content: space-between;
+        padding: 0 2px 0 2px; }
+        body .content #gifRecorder #recorder .gradient h4 {
+          padding: 4px 0 0 4px;
+          font-family: "Chakra Petch";
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 0; }
+      body .content #gifRecorder #recorder #recorderDisplay {
+        height: 440px;
+        width: 838px;
+        margin: 8px 14px 21px 8px; }
+        body .content #gifRecorder #recorder #recorderDisplay video {
+          height: 440px;
+          width: 838px;
+          object-fit: cover; }
+        body .content #gifRecorder #recorder #recorderDisplay #recordedGif {
+          height: 440px;
+          width: 838px; }
+      body .content #gifRecorder #recorder #recorderPreCapture #captureGrp {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: flex-end;
+        right: 16px; }
+        body .content #gifRecorder #recorder #recorderPreCapture #captureGrp #captureCam {
+          height: 36px;
+          width: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .content #gifRecorder #recorder #recorderPreCapture #captureGrp #captureBtn {
+          font-family: "Chakra Petch";
+          font-size: 16px;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 18px;
+          height: 36px;
+          width: 144px; }
+      body .content #gifRecorder #recorder #recorderLive {
+        justify-content: space-between;
+        padding: 0 16px 16px 11px; }
+        body .content #gifRecorder #recorder #recorderLive .counterLive {
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          height: 36px;
+          width: 124px; }
+          body .content #gifRecorder #recorder #recorderLive .counterLive span {
+            font-family: "Chakra Petch";
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 36px; }
+        body .content #gifRecorder #recorder #recorderLive #stopGrp {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          justify-content: flex-end; }
+          body .content #gifRecorder #recorder #recorderLive #stopGrp #recordingBtn {
+            height: 36px;
+            width: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          body .content #gifRecorder #recorder #recorderLive #stopGrp #stopBtn {
+            height: 36px;
+            width: 144px;
+            font-family: "Chakra Petch";
+            font-size: 16px;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 18px; }
+      body .content #gifRecorder #recorder #recorderPreview {
+        justify-content: space-between;
+        padding: 0 16px 16px 11px; }
+        body .content #gifRecorder #recorder #recorderPreview .counterPvw {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          body .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 36px;
+            width: 124px; }
+            body .content #gifRecorder #recorder #recorderPreview .counterPvw .counterProg span {
+              font-family: "Chakra Petch";
+              font-size: 16px;
+              letter-spacing: 0;
+              line-height: 36px; }
+          body .content #gifRecorder #recorder #recorderPreview .counterPvw .playBtn {
+            margin-left: 24px;
+            height: 20px;
+            width: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          body .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar {
+            width: 240px;
+            height: 24px;
+            margin-left: 4px;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            box-sizing: border-box; }
+            body .content #gifRecorder #recorder #recorderPreview .counterPvw .progressBar .progressBlock {
+              position: relative;
+              top: 2px;
+              height: 20px;
+              width: 12px; }
+        body .content #gifRecorder #recorder #recorderPreview .endBtns .btn {
+          height: 36px;
+          width: 144px;
+          font-family: "Chakra Petch";
+          font-size: 16px;
+          letter-spacing: 0;
+          line-height: 36px; }
+      body .content #gifRecorder #recorder #uploadDisplay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 440px;
+        width: 838px;
+        margin: 8px 14px 21px 8px; }
+        body .content #gifRecorder #recorder #uploadDisplay .icon {
+          height: 48px;
+          width: 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .content #gifRecorder #recorder #uploadDisplay h4 {
+          margin-top: 8px;
+          text-align: center;
+          font-family: "Chakra Petch";
+          font-weight: 700; }
+        body .content #gifRecorder #recorder #uploadDisplay .progressBar {
+          margin-top: 39px;
+          height: 24px;
+          width: 324px;
+          display: flex;
+          justify-content: space-evenly;
+          align-content: center;
+          box-sizing: border-box; }
+          body .content #gifRecorder #recorder #uploadDisplay .progressBar .progressBlock {
+            position: relative;
+            top: 2px;
+            height: 20px;
+            width: 12px; }
+        body .content #gifRecorder #recorder #uploadDisplay h6 {
+          margin-top: 10px;
+          text-align: center;
+          font-family: "Chakra Petch";
+          font-size: 12px;
+          color: rgba(17, 0, 56, 0.64);
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 14px; }
+          body .content #gifRecorder #recorder #uploadDisplay h6 s {
+            text-decoration: line-through; }
+      body .content #gifRecorder #recorder .uploadingBtns {
+        flex-direction: row;
+        position: relative;
+        justify-content: flex-end;
+        right: 16px; }
+        body .content #gifRecorder #recorder .uploadingBtns button {
+          height: 36px;
+          width: 144px;
+          font-family: "Chakra Petch";
+          font-size: 16px;
+          letter-spacing: 0;
+          line-height: 36px; }
+    body .content #gifRecorder #recorderEnd {
+      width: 721px;
+      height: 391px; }
+      body .content #gifRecorder #recorderEnd .gradient {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        top: 3px;
+        margin-left: 3px;
+        width: 715px;
+        height: 24px;
+        justify-content: space-between;
+        padding: 0 2px 0 2px; }
+        body .content #gifRecorder #recorderEnd .gradient h4 {
+          padding: 4px 0 0 4px;
+          font-family: "Chakra Petch";
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 0; }
+      body .content #gifRecorder #recorderEnd .windowCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 364px; }
+        body .content #gifRecorder #recorderEnd .windowCont .cont {
+          display: flex;
+          padding-top: 27px;
+          margin: 0 46px 0 24px;
+          justify-content: space-between; }
+          body .content #gifRecorder #recorderEnd .windowCont .cont #recordedDisplay {
+            height: 278px;
+            width: 371px; }
+            body .content #gifRecorder #recorderEnd .windowCont .cont #recordedDisplay img {
+              object-fit: cover;
+              overflow: hidden;
+              width: 100%; }
+          body .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin-bottom: 40px; }
+            body .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn h4 {
+              font-family: "Chakra Petch";
+              font-weight: 700;
+              font-size: 16px;
+              letter-spacing: 0;
+              line-height: 22px; }
+            body .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn textarea {
+              opacity: 0; }
+            body .content #gifRecorder #recorderEnd .windowCont .cont .createdBtn button {
+              height: 36px;
+              width: 256px;
+              font-family: "Chakra Petch";
+              font-size: 16px;
+              letter-spacing: 0;
+              text-align: center;
+              line-height: 36px; }
+        body .content #gifRecorder #recorderEnd .windowCont #readyBtn {
+          height: 36px;
+          width: 144px;
+          align-self: flex-end;
+          margin-right: 46px;
+          margin-bottom: 44px;
+          font-family: "Chakra Petch";
+          font-size: 16px;
+          letter-spacing: 0;
+          text-align: center;
+          line-height: 36px; }
+  body .content .my_Gifos {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding-bottom: 16px; }
+    body .content .my_Gifos .guifos_go {
+      height: 32px;
+      display: flex;
+      align-items: center; }
+      body .content .my_Gifos .guifos_go h4 {
+        padding-left: 7px;
+        font-family: "Chakra Petch";
+        font-size: 14px;
+        letter-spacing: 0; }
+    body .content .my_Gifos .gifos {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 16px, 16px; }
+      body .content .my_Gifos .gifos div {
+        height: 298px;
+        width: 288px;
+        margin-bottom: 16px; }
+        body .content .my_Gifos .gifos div img {
+          object-fit: cover;
+          height: 100%;
+          width: 288px; }
+  body .content #trending {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px; }
+    body .content #trending .trend_title {
+      height: 32px;
+      display: flex;
+      align-items: center; }
+      body .content #trending .trend_title h4 {
+        padding-left: 7px;
+        font-family: "Chakra Petch";
+        font-size: 14px;
+        letter-spacing: 0; }
+    body .content #trending #trend_content {
+      margin-top: 16px;
+      padding-bottom: 16px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      body .content #trending #trend_content .gifCont {
+        margin-bottom: 16px;
+        height: 298px;
+        width: 288px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        body .content #trending #trend_content .gifCont img {
+          height: 296px;
+          width: 100%;
+          object-fit: fill;
+          object-position: center;
+          overflow: hidden; }
+        body .content #trending #trend_content .gifCont .hoverBar {
+          width: 282px;
+          height: 20px;
+          z-index: 2;
+          top: 276px;
+          display: none;
+          margin-left: 3px;
+          margin-bottom: 2px;
+          position: absolute; }
+          body .content #trending #trend_content .gifCont .hoverBar span {
+            padding-left: 3px;
+            font-family: "Chakra Petch";
+            font-weight: 600;
+            font-size: 14px; }
+        body .content #trending #trend_content .gifCont:hover {
+          outline-offset: -3px; }
+        body .content #trending #trend_content .gifCont:hover img {
+          padding-left: 2px;
+          height: 291px;
+          width: 284px; }
+        body .content #trending #trend_content .gifCont:hover .hoverBar {
+          display: block; }
+      body .content #trending #trend_content :nth-child(5n) {
+        width: 592px;
+        overflow: hidden; }
+        body .content #trending #trend_content :nth-child(5n) img {
+          width: 100%;
+          object-fit: cover; }
+        body .content #trending #trend_content :nth-child(5n) .hoverBar {
+          width: 586px; }
+        body .content #trending #trend_content :nth-child(5n):hover {
+          outline-offset: -3px; }
+        body .content #trending #trend_content :nth-child(5n):hover img {
+          padding-left: 2px;
+          height: 291px;
+          width: 588px; }
+        body .content #trending #trend_content :nth-child(5n):hover .hoverBar {
+          display: block; }
+  body .content #search_results {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding-bottom: 20px; }
+    body .content #search_results .results_title {
+      height: 32px;
+      display: flex;
+      align-items: center; }
+      body .content #search_results .results_title h4 {
+        padding-left: 7px;
+        font-family: "Chakra Petch";
+        font-size: 14px;
+        letter-spacing: 0; }
+    body .content #search_results #results_content {
+      margin-top: 16px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      body .content #search_results #results_content .gifCont {
+        height: 298px;
+        width: 288px;
+        margin-bottom: 16px; }
+        body .content #search_results #results_content .gifCont img {
+          height: 298px;
+          width: 100%;
+          object-fit: fill;
+          object-position: center;
+          overflow: hidden; }
+      body .content #search_results #results_content :nth-child(5n) {
+        width: 592px;
+        overflow: hidden; }
+        body .content #search_results #results_content :nth-child(5n) img {
+          width: 100%;
+          object-fit: cover; }
+
+.noDisplay {
+  display: none; }
+
+.display {
+  display: block; }
+
+.displayFlex {
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */

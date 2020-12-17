@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GifOS</title>
+
+    <link rel="shortcut icon" href="assets/globe_img.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="light" id="theme">
+        <div class="header_title">
+            <h5>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h5>
+        </div>
+        <div class="content">
+            <header>
+                <nav>
+                    <a href="index.html" class="logo_day"><img src="./assets/gifOF_logo.png" alt="logo"></a>
+                    <a href="index.html" class="logo_dark"><img src="./assets/gifOF_logo_dark.png" alt="logo"></a>
+                    <div id="nav_button" class="buttons displayFlex">
+                        <button id="create_guifos" class="create" type="button">Crear Guifos</button>
+                        <div class="theme">
+                            <div id="choose_topic">
+                                <button type="button" id="select_theme">Elegir Tema</button>
+                                <button type="button" id="select_theme_arrow">
+                                        <img src="./assets/dropdown.svg" alt="arrow">
+                                </button>
+                            </div>
+                            <div id="theme_button" class="theme_dropdown">
+                                <button id="light"><span>S</span>ailor Day</button>
+                                <button id="dark"><span>S</span>ailor Night</button>
+                            </div>
+                        </div>
+                        <div class="myGifos">
+                            <a class="guifos_go"><span>M</span>is Guifos</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <section id="gifRecorder" class="displayFlex">
+                <div id="recorderIntro" class="display">
+                    <div class="gradient">
+                        <h4>Crear Guifos</h4>
+                        <img src="./assets/button_close.svg" alt="close" id="close1">
+                    </div>
+                    <div class="recorderTitle">
+                        <img src="./assets/window_img.png" alt="Window">
+                        <h4>Aqui podrás crear tus propios guifos</h4>
+                    </div>
+                    <div class="introBody">
+                            <p>Crear tu guifo es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:</p>
+                            <p><span>1)</span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</p>
+                            <p><span>2)</span> Capturar tu momento guifo</p>
+                            <p><span>3)</span> Revisar el momento</p>
+                            <p><span>4)</span> Listo para subir y compartir!</p>
+                            <p>¿Quieres comenzar a crear tu <span>guifo</span> ahora?</p>
+                    </div>
+                    <div class="introBtns">
+                            <button type="button" id="cancelBtn" class="btn">Cancelar</button>
+                            <button type="button" id="startBtn" class="btn">Comenzar</button>
+                    </div>
+                </div>
+                <div id="recorder" class="noDisplay">
+                    <div class="gradient">
+                        <h4 id="recorderTitle">Un Chequeo Antes de Empezar</h4>
+                        <img src="./assets/button_close.svg" alt="close" id="close3">
+                    </div>
+                    <div id="recorderDisplay" class="noDisplay">
+                        <video src="" id="gifRecord"></video>
+                        <img src="" alt="myGif" id="recordedGif" class="noDisplay">
+                    </div>
+                    <div id="recorderPreCapture"  class="noDisplay">
+                        <div id="captureGrp">
+                            <button type="button" id="captureCam" class="btn">
+                                <img src="./assets/camera.svg" alt="camera">
+                            </button>
+                            <button type="button" id="captureBtn" class="btn">Capturar</button>
+                        </div>
+                    </div>
+                    <div id="recorderLive" class="noDisplay">
+                        <div class="counterLive">
+                            <span>00:00:00:00</span>
+                        </div>
+                        <div id="stopGrp">
+                            <button type="button" id="recordingBtn" class="stopBtn">
+                                <img src="./assets/recording.svg" alt="recording">
+                            </button>
+                            <button type="button" id="stopBtn" class="stopBtn">Listo</button>
+                        </div>
+                    </div>
+                    <div id="recorderPreview" class="noDisplay">
+                        <div class="counterPvw">
+                            <div class="counterProg">
+                                <span>00:00:00:00</span>
+                            </div>
+                            <button id="play" class="playBtn">
+                                <img src="./assets/forward.svg" alt="play">
+                            </button>
+                            <div id='progressBarPvw' class="progressBar">
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                                <div class="progressBlock"></div>
+                            </div>
+                        </div>
+                        <div class="endBtns">
+                            <button type="button" id="repeatBtn" class="btn">Repetir Captura</button>
+                            <button type="button" id="uploadBtn" class="btn">Subir Guifo</button>
+                        </div>
+                    </div>
+                    <div id="uploadDisplay" class="noDisplay">
+                        <div class="icon">
+                            <img src="./assets/globe_img.png" alt="Globe">
+                        </div>
+                        <h4>Estamos subiendo tu guifo…</h4>
+                        <div id='uploadProgressBar' class="progressBar">
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                            <div class="progressBlock"></div>
+                        </div>
+                        <h6>Tiempo restante: <s>38 años</s> algunos minutos</h6>
+                    </div>
+                    <div id="uploadingBtns" class="uploadingBtns noDisplay">
+                        <button id="cancelUpload">Cancelar</button>
+                    </div>
+                </div>
+                <div id="recorderEnd" class="noDisplay">
+                    <div class="gradient">
+                        <h4>Guifo creado con éxito</h4>
+                        <img src="./assets/button_close.svg" alt="close" id="close2">
+                    </div>
+                    <div class="windowCont">
+                        <div class="cont">
+                            <div id="recordedDisplay">
+                                <img src="" id="recordedGifPvw" alt="Recorded Gif">
+                            </div>
+                            <div class="createdBtn">
+                                <h4>Guifo creado con éxito</h4>
+                                <button type="button" id="copyBtn">Copiar Enlace Guifo</button>
+                                <button type="button" id="downloadBtn">Descargar Guifo</button>
+                                <textarea id="gifLink"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" id="readyBtn">Listo</button>
+                    </div>
+                </div>
+            </section>
+            <section id='my_Gifos' class="my_Gifos">
+                <div class="guifos_go">
+                    <h4>Mis guifos:</h4>
+                </div>
+                <div id='gifos' class="gifos">
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="script/Reproducto.js"></script>
+</body>
+</html>

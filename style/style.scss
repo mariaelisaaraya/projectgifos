@@ -1,0 +1,846 @@
+@import "_variables.scss";
+@import "_lightTheme.scss";
+@import "_darkTheme.scss";
+
+body{
+    .header_title {
+        margin: 0 auto;
+        height: 23px;
+        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+        box-shadow: 0 1px 0 0 $colour-8;
+        h5 {
+            padding: 4px 0 0 8px;
+            font-family: $font1, sans-serif;
+            font-size: 12px;
+            color: $colour-1;
+            letter-spacing: 0;
+        }
+    }
+
+    .content {
+        margin: 0 auto;
+        header {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            nav {
+                margin: 35px 0 16px 0;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .buttons{
+                    justify-content: space-between;
+                    .create {
+                        margin-right: 16px;
+                        display: block;
+                        width: 144px;
+                        height: 36px;
+                        font-family: $font1, sans-serif;
+                        font-size: 16px;
+                        letter-spacing: 0;
+                        text-align: center;
+                        line-height: 18px;
+                        &:hover{
+                            outline-offset: -5px;
+                        }
+                    }
+                    .theme{
+                        font-size: 0;
+                        width: 170px;
+                        margin-right: 16.5px;
+                        #choose_topic{
+                            display: flex;
+                            flex-direction: row;
+                            #select_theme{
+                                width: 134px;
+                                height: 36px;
+                                font-family: $font1, sans-serif;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                text-align: center;
+                                line-height: 18px;
+                                &:hover{
+                                    outline-offset: -5px;
+                                }
+                            }
+                            #select_theme_arrow{
+                                width: 36px;
+                                height: 36px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                &:hover{
+                                    outline-offset: -5px;
+                                }
+                            }
+                        }
+                        #theme_button {
+                            button{
+                                width: 150px;
+                                height: 36px;
+                                margin: 10px 10px 0 10px;
+                                border: 1px solid #808080;
+                                font-family: $font1;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                line-height: 22px;
+                                &:hover{
+                                    outline-offset: -5px;
+                                }
+                            }
+                        }
+                        .theme_dropdown{
+                            width: 170px;
+                            height: 102px;
+                            position: absolute;
+                            z-index: 5;
+                            display: none;
+                        }
+                        .display{
+                            display: block;
+                        }
+                    }
+                    .myGifos{
+                        height: 36px;
+                        display: flex;
+                        align-items: center;
+                        width: 100px;
+                        .guifos_go{
+                            font-family: $font1;
+                            padding-left: 5px;
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            line-height: 18px;
+                            span{
+                                background-position: bottom center;
+                                background-size: 8px 1.5px;
+                                background-repeat: no-repeat;
+                                padding-top: 0.5px;
+                            }
+                        }
+                        &:hover{
+                            outline-offset: -5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .search{
+                width: 1200px;
+                height: 99px;
+                .gradient{
+                    position: relative;
+                    box-sizing: border-box;
+                    top: 3px;
+                    margin-left: 3px;
+                    width: 1194px;
+                    height: 24px;
+                    h4{
+                        padding: 4px 0 0 4px;
+                        font-family: $font1;
+                        font-weight: 700;
+                        font-size: 14px;
+                        letter-spacing: 0;
+                    }
+                }
+                .search_content{
+                    margin-bottom: 3px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 72px;
+                    .search_inputs{
+                        #search_input {
+                            margin: 0px 3px 0 12px;
+                            height: 48px;
+                            width: 1057px;
+                            text-indent: 16px;
+                            font-family: $font1, sans-serif;
+                            &::placeholder{
+                                font-family: $font1, sans-serif;
+                                font-size: 16px;
+                                color: #B4B4B4;
+                                letter-spacing: 0;
+                            }
+                        }
+                    }
+                    #search {
+                        margin-right: 18px;
+                        width: 102px;
+                        height: 36px;
+                        font-size: 16px;
+                        letter-spacing: 0;
+                        line-height: 18px;
+                        &:hover{
+                            outline-offset: -5px;
+                        }
+                        img {
+                            height: 16px;
+                            width: 16px;
+                        }
+                    }
+                }
+                .search_results{
+                    position: absolute;
+                    height: 160px;
+                    width: 1200px;
+                    z-index: 1;
+                    display: none;
+                    ul{
+                        height: 160px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        li{
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            line-height: 35px;
+                            position: relative;
+                            font-family: $font1, sans-serif;
+                            margin-left: 12px;
+                            height: 36px;
+                            width: 1057px;
+                            text-indent: 16px;
+                            z-index: 2;
+                            vertical-align: middle;
+                            &:hover{
+                                outline-offset: -5px;
+                            }
+                        }
+                    }
+                }
+                .display{
+                    display: block;
+                }
+            }
+        }
+        #suggestions{
+            display: block;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 64px;
+            .suggest_title{
+                height: 32px;
+                display: flex;
+                align-items: center;
+                h4{
+                    padding-left: 7px;
+                    font-family: $font1;
+                    font-size: 14px;
+                    letter-spacing: 0;
+                }
+            }
+            .suggestions_content {
+                height: 313px;
+                margin-top: 16px;
+                display: flex;
+                justify-content: space-between;
+                .window{
+                    width: 288px;
+                    height: 313px;
+                    .bar {
+                        position: relative;
+                        margin: 0 4px 0 4px;
+                        padding: 0px 3px 0 4px;
+                        top: 4px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 24px;
+                        h4 {
+                            padding-left: 3px;
+                            font-family: $font1;
+                            font-size: 14px;
+                            font-weight: 700;
+                            letter-spacing: 0;
+                        }
+                    }
+                    .gif{
+                        position: relative;
+                        top: 4px;
+                        margin: 2px 4px 0 4px;
+                        height: 280px;
+                        width: 280px;
+                        img{
+                            height: 280px;
+                            width: 280px;
+                        }
+                        .more{
+                            position: absolute;
+                            left: 14px;
+                            top: 231px;
+                            margin: 0 auto;
+                            z-index: 1;
+                            height: 34px;
+                            width: 81px;
+                            font-family: $font1;
+                            font-size: 14px;
+                            letter-spacing: 0;
+                            text-align: center;
+                            line-height: 18px;
+                            &:hover{
+                                outline-offset: -5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #gifRecorder{
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 59px;
+            margin-bottom: 153px;
+            justify-content: center;
+            #recorderIntro{
+                width: 684px;
+                height: 386px;
+                .gradient{
+                    position: relative;
+                    box-sizing: border-box;
+                    display: flex;
+                    top: 3px;
+                    margin-left: 3px;
+                    width: 678px;
+                    height: 24px;
+                    justify-content: space-between;
+                    padding: 0 2px 0 2px;
+                    h4{
+                        padding: 4px 0 0 4px;
+                        font-family: $font1;
+                        font-weight: 700;
+                        font-size: 14px;
+                        letter-spacing: 0;
+                    }
+                }
+                .recorderTitle{
+                    display: flex;
+                    justify-content: left;
+                    padding:30px 0 7px 25px;
+                    h4 {
+                        font-family: $font1;
+                        padding-left: 16px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: $colour-8;
+                        letter-spacing: 0;
+                        line-height: 22px;
+                    }
+                }
+                .introBody{
+                    padding:0 0 18px 73px;
+                    p{
+                        font-family: $font1;
+                        font-size: 14px;
+                        color: #110038;
+                        letter-spacing: 0;
+                        line-height: 20px;
+                        padding-bottom: 10px;
+                        span{
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .introBtns{
+                    width: 320px;
+                    position: relative;
+                    left: 344px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    .btn{
+                        height: 36px;
+                        width: 144px;
+                        font-family: $font1;
+                        font-size: 16px;
+                        color: #110038;
+                        letter-spacing: 0;
+                        text-align: center;
+                        line-height: 18px;
+                        &:hover{
+                            outline-offset: -5px;
+                        }
+                    }
+                }
+            }
+            #recorder{
+                width: 860px;
+                height: 548px;
+                .gradient{
+                    position: relative;
+                    box-sizing: border-box;
+                    display: flex;
+                    top: 3px;
+                    margin-left: 3px;
+                    width: 854px;
+                    height: 24px;
+                    justify-content: space-between;
+                    padding: 0 2px 0 2px;
+                    h4{
+                        padding: 4px 0 0 4px;
+                        font-family: $font1;
+                        font-weight: 700;
+                        font-size: 14px;
+                        letter-spacing: 0;
+                    }
+                }
+                #recorderDisplay{
+                    height: 440px;
+                    width: 838px;
+                    margin: 8px 14px 21px 8px;
+                    video{
+                        height: 440px;
+                        width: 838px;
+                        object-fit: cover;
+                    }
+                    #recordedGif{
+                        height: 440px;
+                        width: 838px;
+                    }
+                }
+                #recorderPreCapture{
+                    #captureGrp{
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        justify-content: flex-end;
+                        right: 16px;
+                        #captureCam{
+                            height: 36px;
+                            width: 36px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        #captureBtn{
+                            font-family: $font1;
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            text-align: center;
+                            line-height: 18px;
+                            height: 36px;
+                            width: 144px;
+                        }
+                    }
+                }
+                #recorderLive{
+                    justify-content: space-between;
+                    padding: 0 16px 16px 11px;
+                    .counterLive{
+                        display: flex;
+                        align-content: center;
+                        justify-content: center;
+                        height: 36px;
+                        width: 124px;
+                        span{
+                            font-family: $font1;
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            line-height: 36px;
+                        }
+                    }
+                    #stopGrp{
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        justify-content: flex-end;
+                        #recordingBtn{
+                            height: 36px;
+                            width: 36px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        #stopBtn{
+                            height: 36px;
+                            width: 144px;
+                            font-family: $font1;
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            text-align: center;
+                            line-height: 18px;
+                        }
+                    }
+                }
+                #recorderPreview{
+                    justify-content: space-between;
+                    padding: 0 16px 16px 11px;
+                    .counterPvw{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .counterProg{
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            height: 36px;
+                            width: 124px;
+                            span{
+                                font-family: $font1;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                line-height: 36px;
+                            }
+                        }
+                        .playBtn{
+                            margin-left: 24px;
+                            height: 20px;
+                            width: 20px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .progressBar{
+                            width: 240px;
+                            height: 24px;
+                            margin-left: 4px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-content: center;
+                            box-sizing: border-box;
+                            .progressBlock{
+                                position: relative;
+                                top: 2px;
+                                height: 20px;
+                                width: 12px;
+                            }
+                        }
+                    }
+                    .endBtns{
+                        .btn{
+                            height: 36px;
+                            width: 144px;
+                            font-family: $font1;
+                            font-size: 16px;
+                            letter-spacing: 0;
+                            line-height: 36px;
+                        }
+                    }
+                }
+                #uploadDisplay{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 440px;
+                    width: 838px;
+                    margin: 8px 14px 21px 8px;
+                    .icon{
+                        height: 48px;
+                        width: 48px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    h4 {
+                        margin-top: 8px;
+                        text-align: center;
+                        font-family: $font1;
+                        font-weight: 700;
+                    }
+                    .progressBar{
+                        margin-top: 39px;
+                        height: 24px;
+                        width: 324px;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-content: center;
+                        box-sizing: border-box;
+                        .progressBlock{
+                            position: relative;
+                            top: 2px;
+                            height: 20px;
+                            width: 12px;
+                        }
+                    }
+                    h6 {
+                        margin-top: 10px;
+                        text-align: center;
+                        font-family: $font1;
+                        font-size: 12px;
+                        color: rgba(17,0,56,0.64);
+                        letter-spacing: 0;
+                        text-align: center;
+                        line-height: 14px;
+                        s{
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+                .uploadingBtns{
+                    flex-direction: row;
+                    position: relative;
+                    justify-content: flex-end;
+                    right: 16px;
+                    button{
+                        height: 36px;
+                        width: 144px;
+                        font-family: $font1;
+                        font-size: 16px;
+                        letter-spacing: 0;
+                        line-height: 36px;
+                    }
+                }
+            }
+            #recorderEnd{
+                width: 721px;
+                height: 391px;
+                .gradient{
+                    position: relative;
+                    box-sizing: border-box;
+                    display: flex;
+                    top: 3px;
+                    margin-left: 3px;
+                    width: 715px;
+                    height: 24px;
+                    justify-content: space-between;
+                    padding: 0 2px 0 2px;
+                    h4{
+                        padding: 4px 0 0 4px;
+                        font-family: $font1;
+                        font-weight: 700;
+                        font-size: 14px;
+                        letter-spacing: 0;
+                    }
+                }
+                .windowCont{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 364px;
+
+                    .cont{
+                        display: flex;
+                        padding-top: 27px;
+                        margin: 0 46px 0 24px;
+                        justify-content: space-between;
+                        #recordedDisplay{
+                            height: 278px;
+                            width: 371px;
+                            img{
+                                object-fit: cover;
+                                overflow: hidden;
+                                width: 100%;
+                            }
+                        }
+                        .createdBtn{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            align-items: flex-start;
+                            margin-bottom: 40px;
+                            h4{
+                                font-family: $font1;
+                                font-weight: 700;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                line-height: 22px;
+                            }
+                            textarea{
+                                opacity: 0;
+                            }
+                            button{
+                                height: 36px;
+                                width: 256px;
+                                font-family: $font1;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                text-align: center;
+                                line-height: 36px;
+                            }
+                        }
+                    }
+                    #readyBtn{
+                        height: 36px;
+                        width: 144px;
+                        align-self: flex-end;
+                        margin-right: 46px;
+                        margin-bottom: 44px;
+                        font-family: $font1;
+                        font-size: 16px;
+                        letter-spacing: 0;
+                        text-align: center;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+        .my_Gifos{
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 64px;
+            padding-bottom: 16px;
+            .guifos_go{
+                height: 32px;
+                display: flex;
+                align-items: center;
+                h4{
+                    padding-left: 7px;
+                    font-family: $font1;
+                    font-size: 14px;
+                    letter-spacing: 0;
+                }
+            }
+            .gifos {
+                margin-top: 16px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 16px, 16px;
+                div{
+                    height: 298px;
+                    width: 288px;
+                    margin-bottom: 16px;
+                    img{
+                        object-fit: cover;
+                        height: 100%;
+                        width: 288px;
+                    }
+                }
+            }
+        }
+        #trending{
+            display: block;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 64px;
+            .trend_title{
+                height: 32px;
+                display: flex;
+                align-items: center;
+                h4{
+                    padding-left: 7px;
+                    font-family: $font1;
+                    font-size: 14px;
+                    letter-spacing: 0;
+                }
+            }
+            #trend_content {
+                margin-top: 16px;
+                padding-bottom: 16px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                .gifCont{
+                    margin-bottom: 16px;
+                    height: 298px;
+                    width: 288px;
+                    display: flex;
+                    position: relative;
+                    //box-sizing: border-box;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-content: center;
+                    img{
+                        height: 296px;
+                        width: 100%;
+                        object-fit: fill;
+                        object-position: center;
+                        overflow: hidden;
+                    }
+                    .hoverBar{
+                        width: 282px;
+                        height: 20px;
+                        z-index: 2;
+                        top: 276px;
+                        display: none;
+                        margin-left: 3px;
+                        margin-bottom: 2px;
+                        position: absolute;
+                        span{
+                            padding-left: 3px;
+                            font-family: $font1;
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                    }
+                    &:hover{
+                        outline-offset: -3px;
+                    }
+                    &:hover img{
+                        padding-left: 2px;
+                        height: 291px;
+                        width: 284px;
+                    }
+                    &:hover .hoverBar{
+                        display: block;
+                    }
+                }
+                :nth-child(5n){
+                    width: 592px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    .hoverBar{
+                        width: 586px;
+                    }
+                    &:hover{
+                        outline-offset: -3px;
+                    }
+                    &:hover img{
+                        padding-left: 2px;
+                        height: 291px;
+                        width: 588px;
+                    }
+                    &:hover .hoverBar{
+                        display: block;
+                    }
+                }
+            }
+        }
+        #search_results{
+            display: none;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 64px;
+            padding-bottom: 20px;
+            .results_title{
+                height: 32px;
+                display: flex;
+                align-items: center;
+                h4{
+                    padding-left: 7px;
+                    font-family: $font1;
+                    font-size: 14px;
+                    letter-spacing: 0;
+                }
+            }
+            #results_content {
+                margin-top: 16px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                .gifCont{
+                    height: 298px;
+                    width: 288px;
+                    margin-bottom: 16px;
+                    img{
+                        height: 298px;
+                        width: 100%;
+                        object-fit: fill;
+                        object-position: center;
+                        overflow: hidden;
+                    }
+                }
+                :nth-child(5n){
+                    width: 592px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+.noDisplay{
+    display: none;
+}
+.display{
+    display: block;
+}
+.displayFlex{
+    display: flex;
+}

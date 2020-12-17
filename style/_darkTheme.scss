@@ -1,0 +1,412 @@
+.dark{
+    background-color: $bodyDark;
+    .header_title {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+        box-shadow: 0 1px 0 0 $colour-1;
+        h5 {
+            color: $colour-1;
+        }
+    }
+    .content {
+        background-color: $bodyDark;
+        header {
+            nav {
+                .logo_day{
+                    display: none;
+                }
+                .buttons{
+                    .create {
+                        background: $colour-4;
+                        border: 1px solid $colour-8;
+                        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                        color: $colour-1;
+                        &:hover{
+                            outline: 1px dotted $colour-8;
+                        }
+                    }
+                    .theme{
+                        #choose_topic{
+                            #select_theme{
+                                background:$colour-4;
+                                border: 1px solid $colour-8;
+                                box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                                color: $colour-1;
+                                &:hover{
+                                    outline: 1px dotted $colour-8;
+                                }
+                            }
+                            #select_theme_arrow{
+                                background: $colour-4;
+                                border: 1px solid $colour-8;
+                                box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                                img{
+                                    filter: invert(100%);
+                                }
+                                &:hover{
+                                    outline: 1px dotted $colour-8;
+                                }
+                            }
+                        }
+                        #theme_button {
+                            background: $backgroundDark;
+                            box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                            button{
+                                background: $colour-5;
+                                border: 1px solid $border;
+                                box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF;
+                                color: $colour-8;
+                                &:hover{
+                                    outline: 1px dotted $colour-8;
+                                }
+                                &:active{
+                                    background: #2E32FB;
+                                    border: 1px solid rgba(51,53,143,0.20);
+                                    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                    .myGifos{
+                        .guifos_go{
+                            color: $colour-1;
+                        }
+                        &:hover{
+                            outline: 1px dotted $colour-1;
+                            span{
+                                background-image: linear-gradient($colour-1,$colour-1);
+                            }
+                        }
+                    }
+                }
+            }
+            .search{
+                background: $backgroundDark;
+                box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                .gradient{
+                    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                    h4{
+                        color: $colour-1;
+                    }
+                }
+                .search_content{
+                    .search_inputs{
+                        #search_input {
+                            background: $colour-1;
+                            border: 1px solid $colour-7;
+                            box-shadow: inset -2px -2px 0 0 $backgroundDark, inset 2px 2px 0 0 #000000;
+                        }
+                    }
+                    #search {
+                        background: $colour-4;
+                        border: 1px solid $border;
+                        box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF;
+                        color: $colour-1;
+                        .search_glass{
+                            filter: invert(100%);
+                        }
+                        &:hover{
+                            outline: 1px dotted $colour-8;
+                        }
+                    }
+                }
+                .search_results{
+                    background: $backgroundDark;
+                    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                    ul{
+                        li{
+                            font-family: $font1, sans-serif;
+                            background: $colour-5;
+                            border: 1px solid #808080;
+                            box-shadow: inset -1px -1px 0 0 #8F8F8F, inset 1px 1px 0 0 #FFFFFF;
+                            &:hover{
+                                outline: 1px dotted $colour-8;
+                                background: #DBDBDB;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #suggestions{
+            .suggest_title{
+                background: #FFFAFE;
+                border: 1px solid #E6BBE2;
+                box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+                h4{
+                    color: $colour-8;
+                }
+            }
+            .suggestions_content {
+                .window{
+                    background: $backgroundDark;
+                    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                    .bar {
+                        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                        h4 {
+                            color: #FFFFFF;
+                        }
+                    }
+                    .gif{
+                        position: relative;
+                        .more{
+                            color: #FFFFFF;
+                            background: #4180F6;
+                            border: 1px solid #4C2F99;
+                            box-shadow: inset -1px -1px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF;
+                            &:hover{
+                                outline: 1px dotted $colour-1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #gifRecorder{
+            #recorderIntro{
+                background: #B4B4B4;
+                box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                .gradient{
+                    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                    h4{
+                        color: $colour-1;
+                    }
+                }
+                .recorderTitle{
+                    h4 {
+                        color: $colour-8;
+                    }
+                }
+                .introBody{
+                    p{
+                        color: $colour-8;
+                    }
+                }
+                .introBtns{
+                    .btn{
+                        color: $colour-8;
+                        &:hover{
+                            outline: 1px dotted $colour-8;
+                        }
+                    }
+                    #cancelBtn{
+                        background: #110038;
+                        color: #FFFFFF;
+                        border: 1px solid #B4B4B4;
+                        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+                        &:hover{
+                            background: #110038;
+                            border: 1px solid #B4B4B4;
+                            outline: 1px dotted #FFFFFF;
+                            box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+                        }
+                    }
+                    #startBtn{
+                        background: #EE3EFE;
+                        color: #FFFFFF;
+                        border: 1px solid #110038;
+                        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                        &:hover{
+                            background: #CE36DB;
+                            border: 1px solid #110038;
+                            box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                        }
+                    }
+                }
+            }
+            #recorder{
+                background: #B4B4B4;
+                box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                .gradient{
+                    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                    h4{
+                        color: $colour-1;
+                    }
+                }
+                #recorderDisplay{
+                    background: #FFFFFF;
+                    border: 1px solid #979797;
+                    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+                }
+                #recorderPreCapture{
+                    #captureGrp{
+                        .btn{
+                            background: #EE3EFE;
+                            border: 1px solid #110038;
+                            box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                        }
+                        #captureCam{
+                            img{
+                                filter: invert(100%);
+                            }
+                        }
+                        #captureBtn{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                #recorderLive{
+                    .counterLive{
+                        background: #FFFFFF;
+                        border: 1px solid #979797;
+                        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+                        span{
+                            color: $colour-8;
+                        }
+                    }
+                    #stopGrp{
+                        .stopBtn{
+                            background: #FF6161;
+                            border: 1px solid #110038;
+                            box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+                        }
+                        #stopBtn{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                #recorderPreview{
+                    .counterPvw{
+                        .counterProg{
+                            background: #FFFFFF;
+                            border: 1px solid #979797;
+                            box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+                            span{
+                                color: $colour-8;
+                            }
+                        }
+                        .progressBar{
+                            background: #B4B4B4;
+                            box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #E6E6E6;
+                            .progressBlock{
+                                background-color: #999999;
+                            }
+                        }
+                        .playBtn{
+                            background: #EE3EFE;
+                            border: 1px solid #110038;
+                            box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+                        }
+                    }
+                    .endBtns{
+                        .btn{
+                            border: 1px solid #B4B4B4;
+                            color: #FFFFFF;
+                        }
+                        #repeatBtn{
+                            background: #110038;
+                            box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+                        }
+                        #uploadBtn{
+                            background: #EE3EFE;
+                            border: 1px solid #110038;
+                            box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                        }
+                    }
+                }
+                #uploadDisplay{
+                    background: $colour-1;
+                    border: 1px solid #979797;
+                    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+                    .progressBar{
+                        background: #B4B4B4;
+                        box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+                        .progressBlock{
+                            background-color: #999999;
+                        }
+                    }
+                }
+                .uploadingBtns{
+                    button{
+                        color: $colour-1;
+                        background: #110038;
+                        border: 1px solid #B4B4B4;
+                        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+                    }
+                }
+            }
+            #recorderEnd{
+                background: #B4B4B4;
+                box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                .gradient{
+                    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                    h4{
+                        color: $colour-1;
+                    }
+                }
+                .windowCont{
+                    .cont{
+                        #recordedDisplay{
+                            background: #FFFFFF;
+                            border: 1px solid #979797;
+                            box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+                        }
+                        .createdBtn{
+                            h4{
+                                color: $colour-8;
+                            }
+                            button{
+                                color: $colour-1;
+                                background: #110038;
+                                border: 1px solid #B4B4B4;
+                                box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+                            }
+                        }
+                    }
+                    #readyBtn{
+                        color: $colour-1;
+                        background: #EE3EFE;
+                        border: 1px solid #110038;
+                        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                    }
+                }
+            }
+        }
+        .my_Gifos{
+            .guifos_go{
+                background: #FFFAFE;
+                border: 1px solid #E6BBE2;
+                box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+                h4{
+                    color: $colour-8;
+                }
+            }
+        }
+        #trending{
+            .trend_title{
+                background: #FFFAFE;
+                border: 1px solid #E6BBE2;
+                box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+                h4{
+                    color: $colour-8;
+                    letter-spacing: 0;
+                }
+            }
+            #trend_content{
+                .gifCont{
+                    &:hover{
+                        background: $backgroundDark;
+                        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                        outline: 1px dotted $colour-1;
+                    }
+                    .hoverBar{
+                        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+                        span{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+        #search_results{
+            .results_title{
+                background: #FFFAFE;
+                border: 1px solid #E6BBE2;
+                box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+                h4{
+                    color: $colour-8;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+}

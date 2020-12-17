@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifOS</title>
+    <link rel="shortcut icon" href="assets/globe_img.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="light" id="theme">
+        <div class="header_title">
+            <h5>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h5>
+        </div>
+        <div class="content">
+            <header>
+                <nav>
+                    <a href="index.html" class="logo_day"><img src="./assets/gifOF_logo.png" alt="logo"
+                            class="logo_day"></a>
+                    <a href="index.html" class="logo_dark"><img src="./assets/gifOF_logo_dark.png" alt="logo"
+                            class="logo_dark"></a>
+                    <div id='nav_button' class="buttons displayFlex">
+                        <button id='create_guifos' class="create" type="button">Crear Guifos</button>
+                        <div class="theme">
+                            <div id="choose_topic">
+                                <button type="button" id="select_theme">Elegir Tema</button>
+                                <button type="button" id="select_theme_arrow">
+                                    <img src="./assets/dropdown.svg" alt="arrow">
+                                </button>
+                            </div>
+                            <div id="theme_button" class="theme_dropdown">
+                                <button id="light"><span>S</span>ailor Day</button>
+                                <button id="dark"><span>S</span>ailor Night</button>
+                            </div>
+                        </div>
+                        <div class="myGifos">
+                            <div id='guifos_go' class="guifos_go"><span>M</span>is Guifos</div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="search">
+                    <div class="gradient">
+                        <h4>Buscar</h4>
+                    </div>
+                    <div class="search_content">
+                        <div class="search_inputs">
+                            <input type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+                                id="search_input">
+                        </div>
+                        <button id="search">
+                            <img src="./assets/lupa.svg" alt="Lupa" class="search_glass">
+                            Buscar
+                        </button>
+                    </div>
+                    <div class="search_results">
+                        <ul>
+                            <li class="auto"></li>
+                            <li class="auto"></li>
+                            <li class="auto"></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <section id="suggestions">
+                <div class="suggest_title">
+                    <h4>Hoy te sugerimos:</h4>
+                </div>
+                <div class="suggestions_content">
+                </div>
+            </section>
+            <section id="trending">
+                <div class="trend_title">
+                    <h4>Tendencias:</h4>
+                </div>
+                <div id="trend_content">
+                </div>
+            </section>
+            <section id="search_results">
+                <div class="results_title">
+                    <h4 class="resp_title"></h4>
+                </div>
+                <div id="results_content">
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script/app.js"></script>
+</body>
+
+</html>
