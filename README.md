@@ -10,7 +10,6 @@
 3. ** `.Data` **: The data from these was taken from the Giphy API
 
  
-  
     .
     ├──projectgifos
        ├── .index_html
