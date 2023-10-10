@@ -28,7 +28,7 @@
 
 ##Versioned 📌
 
-[gifOS](https://elishitas.github.io/projectgifos/).
+[gifOS](https://mariaelisaaraya.github.io/projectgifos/).
 
 ## Author ✒️
 * **Maria Elisa Araya** -
